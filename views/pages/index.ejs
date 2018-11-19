@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+<body>
+  <div id="demo">
+
+  </div>
+
+  <div id="placeholder"></div>
+
+  <main>
+      <ul id="gallery-items" class="container"></ul>
+  </main>
+
+  <script id="personTemplate" type="text/template">
+    <figure class="person">
+      <img />
+    <figcaption>
+      <h3 class="heading"></h3>
+      <p></p>
+      <p class="numeral"></p>
+      <p class="new"></p>
+    </figcaption>
+    </figure>
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+  <script type="text/javascript"  src="./apper.js"></script>
+
+</body>
+</html>
